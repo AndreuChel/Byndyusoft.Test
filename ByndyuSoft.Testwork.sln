@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByndyuSoft.WebReactApp", "ByndyuSoft.WebReactApp\ByndyuSoft.WebReactApp.csproj", "{63DD3563-13C5-47DC-99DF-C4EEABB9E5CF}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{431CA0F9-DA08-4062-AB09-E5E39819FB0B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByndyuSoft.Testwork.UnitTests", "ByndyuSoft.Testwork.UnitTests\ByndyuSoft.Testwork.UnitTests.csproj", "{BCB6988C-C09C-47E4-9240-C12CB042FEBF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Infrastructure\Calculator\Calculator.csproj", "{93D925F9-7243-462C-87A9-38158DA496C1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByndyuSoft.WebReactApp", "ByndyuSoft.WebReactApp\ByndyuSoft.WebReactApp.csproj", "{63DD3563-13C5-47DC-99DF-C4EEABB9E5CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
