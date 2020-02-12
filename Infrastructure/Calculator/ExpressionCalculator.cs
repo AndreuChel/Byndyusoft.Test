@@ -9,7 +9,7 @@ using Calculator.Resolvers;
 
 namespace Calculator
 {
-    public class ExpressionCalculator <TResult>
+    public class ExpressionCalculator <TResult> : IExpressionCalculator <TResult>
     {
         public IExpressionResolver Resolver { get; }
 
@@ -18,7 +18,7 @@ namespace Calculator
             Resolver = resolver;
         }
 
-        public TResult Calculate (string incomingExpression)
+        public virtual TResult Calculate (string incomingExpression)
         {
             if (Resolver == null) throw new EmptyResolverException();
 

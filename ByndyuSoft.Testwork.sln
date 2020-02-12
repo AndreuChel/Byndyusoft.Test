@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByndyuSoft.Testwork.UnitTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Infrastructure\Calculator\Calculator.csproj", "{93D925F9-7243-462C-87A9-38158DA496C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByndyuSoft.WebReactApp", "ByndyuSoft.WebReactApp\ByndyuSoft.WebReactApp.csproj", "{63DD3563-13C5-47DC-99DF-C4EEABB9E5CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{93D925F9-7243-462C-87A9-38158DA496C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93D925F9-7243-462C-87A9-38158DA496C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93D925F9-7243-462C-87A9-38158DA496C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DD3563-13C5-47DC-99DF-C4EEABB9E5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DD3563-13C5-47DC-99DF-C4EEABB9E5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DD3563-13C5-47DC-99DF-C4EEABB9E5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DD3563-13C5-47DC-99DF-C4EEABB9E5CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
